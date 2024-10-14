@@ -1,0 +1,36 @@
+body {
+    background-color: #b90a0a; /* Red background */
+    color: #fff; /* White text */
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', sans-serif; /* Custom font */
+    font-size: 3em;
+    color: white;
+}
+
+p.lead {
+    color: #d4af37; /* Gold color */
+    font-size: 1.5em;
+    margin-bottom: 0%;
+}
+
+img {
+    max-width: 80%; /* Control image size */
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 1.1em;
+    margin-top: 0%;
+}
+
+.footer {
+    padding-top: 40px;
+}

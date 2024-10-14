@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    background-color: #000; /* Remove this if you don't want a black background behind the content */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Section */
+  .header-section {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 5px solid #ffcc00;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Lalezar", system-ui;
+    font-style: normal;
+    color: #000;
+    text-align: center;
+  }
+  
+  /* Banner Section */
+  .banner-section {
+    background-color: #B60003;
+    ;
+    padding: 50px;
+    border-top: 10px solid #ffcc00;
+    border-bottom: 10px solid #ffcc00;
+    color: white;
+    height: 85.7vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Content Styling */
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Text Section */
+  .text-container {
+    padding-left: 40px;
+  }
+  
+  .hungry {
+    font-size: 110px;
+    font-weight: bold;
+    font-family: "Jolly Lodger", system-ui;
+  }
+  
+  .text-highlight {
+    color: #ffcc00;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Inika", serif;
+  }
+  
+  .description {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: "Inika", serif;
+  }
+  
+  .proceed-btn {
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    font-family: "Inika", serif;
+  }
+  
+  .proceed-btn span {
+    margin-left: 10px;
+    font-size: 1.5rem;
+  }
+  
+  /* Image Section */
+  .image-container {
+    position: relative;
+    text-align: right;
+    padding-right: 40px;
+  }
+  
+  .main-image {
+    max-width: 100%;
+  }
+  
+  .imong-order {
+    font-size: 2.5rem;
+    font-family: 'Comic Sans MS', cursive;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+  }
+  
+  /* Floating Images (e.g., chicken, burger, fries) */
+  .floating-image {
+    position: absolute;
+  }
+  
+  .floating-chicken {
+    top: 10%;
+    left: -20px;
+    width: 80px;
+  }
+  
+  .floating-burger {
+    top: 20%;
+    right: 10px;
+    width: 100px;
+  }
+  
+  .floating-fries {
+    bottom: 10%;
+    left: -30px;
+    width: 80px;
+  }
+  

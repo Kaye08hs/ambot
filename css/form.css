@@ -1,0 +1,83 @@
+body {
+    background-color: #B60003;
+    margin: 0;
+    padding: 0;
+}
+
+.top-border, .bottom-border {
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.form-header {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px; 
+    text-align: center;
+    font-family: "Lalezar", system-ui;
+
+}
+
+.yellow-strip {
+    height: 15px;
+    background-color: #E4B020; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.form-container {
+    background-color: #E4B020;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 200vh;
+    margin: 20px auto;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4e342e;
+    margin-bottom: 20px;
+    font-family: "Lalezar", system-ui;
+
+}
+
+.btn-sm{
+    background-color: #B60003;
+}
+
+.cusDetails{
+    font-family: "Inika", serif;
+    font-size: 25px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #ffffff;
+    color: black;
+}
+
+.bTN{
+    background-color: white;
+    font-family: "Lalezar", system-ui;
+    color: black;
+    border: 0;
+    font-size: 23px;
+    
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+.form-wrapper {
+    padding: 20px 0;
+}
+
+input[type="text"], select, .form-control {
+    border-radius: 5px;
+}

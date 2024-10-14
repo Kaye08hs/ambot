@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container-fluid {
+    padding: 0; /* Remove padding from the container */
+}
+
+.food-category-container {
+    max-width: 100%; /* Full width for responsiveness */
+    width: 100%; /* Full width */
+    padding: 30px;
+    border: 14.8px solid #A50000; /* Border color */
+    background-color: white; /* Background color */
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 2rem; /* Increased font size for better visibility */
+}
+
+.food-item {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.custom-dropdown {
+    width: auto;
+    height: auto;
+
+}
+
+.dropdown-toggle {
+    background-color: #c1121f; /* Red background */
+    color: white;
+}
+
+#dropdownMenuButton{
+    width: 100%;
+    border-radius: 0%;
+}
+
+.dropdown-toggle:focus {
+    box-shadow: none; /* Remove the default focus outline */
+}
+
+.dropdown-item {
+    border: 2px solid #D4AF37; /* Yellow border for each item */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background-color: #ff2802; /* Light grey on hover */
+}
+
+.food-image-placeholder {
+    width: 100%;
+    height: 100px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+
+.food-item select {
+    background-color: #A50000;
+    color: white;
+    width: 100%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-add-to-order {
+    background-color: #A50000;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn-add-to-order:hover {
+    background-color: #7D0000;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .food-item {
+        margin-bottom: 15px; /* Space between items */
+    }
+
+    .title {
+        font-size: 1.5rem; /* Adjust title size on mobile */
+    }
+}
+
+@media (max-width: 400px) {
+
+    .food-category-container{
+        border-top: #7D0000;
+    }
+    .food-item {
+        padding: 5px; /* Reduce padding on small devices */
+    }
+
+    .title {
+        font-size: 1.2rem; /* Further adjust title size for smaller devices */
+    }
+}
